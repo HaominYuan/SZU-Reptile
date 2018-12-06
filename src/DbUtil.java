@@ -1,21 +1,36 @@
-package myImplement;
-
+import java.io.IOException;
 import java.sql.*;
 import java.util.HashSet;
+import java.util.Objects;
+import java.util.Properties;
 import java.util.Set;
 
 public class DbUtil {
-    private static String className = "com.mysql.cj.jdbc.Driver";
-    private static String dataUser = "root";
-    private static String dataUrl =
-            "jdbc:mysql://127.0.0.1/szureptile?useSSL=false&user=" + dataUser + "&password=";
+    private static String driver;
+    private static String user;
+    private static String password;
+    private static String url;
     private static Connection conn = null;
 
-
-    public static Connection getConn() {
+    static {
+        Properties properties = new Properties();
         try {
-            Class.forName(className);
-            conn = DriverManager.getConnection(dataUrl);
+            properties.load(Objects.requireNonNull(Thread.currentThread().getContextClassLoader().getResourceAsStream("Db.properties")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        driver = properties.getProperty("driver");
+        user = properties.getProperty("user");
+        url = properties.getProperty("url");
+        password = properties.getProperty("password");
+    }
+
+
+    private static Connection getConn() {
+        try {
+            Class.forName(driver);
+            conn = DriverManager.getConnection(url + "&user=" + user + "&password=" + password);
+
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }

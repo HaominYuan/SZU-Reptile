@@ -1,5 +1,3 @@
-package myImplement;
-
 import javax.mail.MessagingException;
 import javax.mail.Session;
 import javax.mail.Transport;

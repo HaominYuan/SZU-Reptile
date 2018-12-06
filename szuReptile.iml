@@ -10,51 +10,42 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7" />
         </CLASSES>
         <JAVADOC>
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/docs/api" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/docs/api" />
         </JAVADOC>
         <SOURCES>
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/examples/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/quartz-backward-compat/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/quartz-backward-compat/src/test/java" />
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/quartz-commonj/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/quartz-integration-tests/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/quartz-integration-tests/src/test/java" />
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/quartz-jboss/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/quartz-oracle/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/quartz-stubs/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/quartz-weblogic/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/quartz/src/main/java" />
-          <root url="file://$USER_HOME$/Downloads/quartz-2.1.7/quartz/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/examples/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/quartz-backward-compat/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/quartz-backward-compat/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/quartz-commonj/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/quartz-integration-tests/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/quartz-integration-tests/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/quartz-jboss/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/quartz-oracle/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/quartz-stubs/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/quartz-weblogic/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/quartz/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7/quartz/src/test/java" />
         </SOURCES>
-        <jarDirectory url="file://$USER_HOME$/Downloads/quartz-2.1.7" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../javadependences/quartz-2.1.7" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/Downloads/httpcomponents-client-4.5.6/lib" />
+          <root url="file://$MODULE_DIR$/../../javadependences/httpcomponents-client-4.5.6/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$USER_HOME$/Downloads/httpcomponents-client-4.5.6/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../javadependences/httpcomponents-client-4.5.6/lib" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/javax.mail.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/javax.activation.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../javadependences/javax.mail.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -63,7 +54,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/slf4j-1.7.25/slf4j-api-1.7.25.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../javadependences/javax.activation.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -72,22 +63,19 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13" />
+          <root url="jar://$MODULE_DIR$/../../javadependences/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES>
-          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/src/build/java" />
-          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/src/demo/java" />
-          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/src/generated/java" />
-          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/src/legacy/java" />
-          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/src/main/core-api/java" />
-          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/src/main/core-impl/java" />
-          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/src/main/protocol-impl/java" />
-          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/src/main/user-api/java" />
-          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/src/main/user-impl/java" />
-          <root url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13/src/test/java" />
-        </SOURCES>
-        <jarDirectory url="file://$USER_HOME$/Downloads/mysql-connector-java-8.0.13" recursive="false" />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../javadependences/slf4j-1.7.25/slf4j-api-1.7.25.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
   </component>
