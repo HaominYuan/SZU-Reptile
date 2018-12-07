@@ -29,8 +29,7 @@ public class DbUtil {
     private static Connection getConn() {
         try {
             Class.forName(driver);
-            conn = DriverManager.getConnection(url + "&user=" + user + "&password=" + password);
-
+            conn = DriverManager.getConnection(url, user, password);
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }
